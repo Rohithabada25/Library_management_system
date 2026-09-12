@@ -1,0 +1,47 @@
+{
+    "books": [
+        {
+            "id": "114",
+            "title": "Java",
+            "author": "Herbert Schildt",
+            "category": "programming",
+            "available": false,
+            "issued_to": "Rohitha"
+        },
+        {
+            "id": "111",
+            "title": "python programming",
+            "author": "Mark Lutz",
+            "category": "programming",
+            "available": true,
+            "issued_to": ""
+        },
+        {
+            "id": "115",
+            "title": "clean code",
+            "author": "Robert C.Martin",
+            "category": "Software Development",
+            "available": true
+        },
+        {
+            "id": "113",
+            "title": "AI",
+            "author": "Stuart Russell",
+            "category": "Aritifical Intelligence",
+            "available": false,
+            "issued_to": "Rithvika"
+        }
+    ],
+    "waiting_queue": [
+        {
+            "student": "Muni Kumar",
+            "book_id": "114"
+        }
+    ],
+    "transaction_history": [
+        "ISSUED - Book ID: 114 - Java - Student: Rohitha",
+        "ISSUED - Book ID: 111 - python programming - Student: Rakesh",
+        "ISSUED - Book ID: 113 - AI - Student: Rithvika",
+        "RETURNED - Book ID: 111 - python programming - Student: Rakesh"
+    ]
+}
